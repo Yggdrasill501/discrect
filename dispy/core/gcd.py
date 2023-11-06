@@ -4,7 +4,13 @@
 
 def gcd(a: int,
         b: int) -> int:
-    """Return the greatest common divisor of a and b."""
+    """Function that calculates greatest common divider of two numbers.
+
+    :param a: int.
+    :param b: int.
+    :return: Greatest common divider.
+    :rtype: int.
+    """
     while a != b:
         if a > b:
             a = a - b
