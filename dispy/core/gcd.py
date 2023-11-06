@@ -8,7 +8,8 @@ def gcd(a: int,
 
     :param a: int.
     :param b: int.
-    :returns: Greatest common divider.
+    :return a: Greatest common divider.
+    :return b: Greatest common divider.
     :rtype: int.
     """
     while a != b:
