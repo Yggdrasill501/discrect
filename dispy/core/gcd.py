@@ -15,6 +15,5 @@ def gcd(a: int,
         if a > b:
             a = a - b
             return a
-        else:
-            b = b - a
-            return b
+        b = b - a
+        return b
