@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-import logging
+"""Module with the greatest common divisor function ."""
 
 
 def gcd(a: int,
