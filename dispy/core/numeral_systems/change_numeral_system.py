@@ -16,6 +16,32 @@ class ChangeNumrealSystem:
         self.number = number
         self.numeral_system_to = numeral_system_to
 
+    def read_numeral_system(self) -> int:
+        """Read numeral system.
+
+        :return: Number in decimal numeral system.
+        :rtype: int.
+        """
+        if self.numeral_system_from == 10:
+            pass
+        elif self.numeral_system_from == 2:
+            pass
+        elif self.numeral_system_from == 3:
+            pass
+        elif self.numeral_system_from == 4:
+            pass
+        elif self.numeral_system_from == 5:
+            pass
+        elif self.numeral_system_from == 6:
+            pass
+        elif self.numeral_system_from == 7:
+            pass
+        elif self.numeral_system_from == 8:
+            pass
+        elif self.numeral_system_from == 9:
+            pass
+        elif self.numeral_system_from == 16:
+            pass
 
 
     def change_numeral_system(self) -> int:
