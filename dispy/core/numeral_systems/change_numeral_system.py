@@ -22,26 +22,9 @@ class ChangeNumrealSystem:
         :return: Number in decimal numeral system.
         :rtype: int.
         """
-        if self.numeral_system_from == 10:
-            pass
-        elif self.numeral_system_from == 2:
-            pass
-        elif self.numeral_system_from == 3:
-            pass
-        elif self.numeral_system_from == 4:
-            pass
-        elif self.numeral_system_from == 5:
-            pass
-        elif self.numeral_system_from == 6:
-            pass
-        elif self.numeral_system_from == 7:
-            pass
-        elif self.numeral_system_from == 8:
-            pass
-        elif self.numeral_system_from == 9:
-            pass
-        elif self.numeral_system_from == 16:
-            pass
+        if self.numeral_system_from == 2:
+            self._from_binary_to_decimal()
+
 
     def change_numeral_system(self) -> int:
         """Change numeral system.
@@ -49,3 +32,14 @@ class ChangeNumrealSystem:
         :return: Number in new numeral system.
         :rtype: int.
         """
+
+    def _from_binary_to_decimal(number_from) -> int:
+        """Change numeral system from binary to decimal.
+
+        :return: Number in decimal numeral system.
+        :rtype: int.
+        """
+        number = 0
+        for i in range(len(number_from)):
+            number += int(self.number[i]) * 2 ** (len(self.number) - i - 1)
+        return number
