@@ -43,7 +43,6 @@ class ChangeNumrealSystem:
         elif self.numeral_system_from == 16:
             pass
 
-
     def change_numeral_system(self) -> int:
         """Change numeral system.
 
