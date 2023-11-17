@@ -17,6 +17,7 @@ class FermatLittleTheorem:
 
     def calculate(self):
         """Calculate Fermat's little theorem: a^(p-1) = 1 (mod p)"""
+        return pow(self.a.__int__(), self.p.__int__() - 1, self.p.__int__()) == 1
 
     @staticmethod
     def _rule(p, a: dispy.core.types.PositiveInteger) -> bool:
