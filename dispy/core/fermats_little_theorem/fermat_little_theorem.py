@@ -15,6 +15,9 @@ class FermatLittleTheorem:
         self.a = a
         self.p = p
 
+    def calculate(self):
+        """Calculate Fermat's little theorem: a^(p-1) = 1 (mod p)"""
+
     @staticmethod
     def _rule(p, a: dispy.core.types.PositiveInteger) -> bool:
         """Rule: a is positive number that is not divisible by p"""
