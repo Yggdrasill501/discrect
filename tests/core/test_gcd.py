@@ -5,7 +5,7 @@ import dispy.core.gcd
 
 def test_gcd():
     """Test for gcd."""
-    number = dispy.core.gcd.gcd(8, 4)
+    number = dispy.core.gcd.gcd.gcd(8, 4)
     assert number == 4
 
 # TODO: Add test for random gcd.

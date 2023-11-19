@@ -1,4 +1,5 @@
-"""Extension to the dispy.core.types module."""
+# -*- coding: utf-8 -*-
+"""Module with extension for types from standard library."""
 
 
 class PrimeNumber:
@@ -56,7 +57,7 @@ class PositiveInteger:
         return f"PositiveInteger({self.number})"
 
     def __mod__(self, other):
-        """Returns the remainder of the division of the number by other."""
+        """Returns the remainder of the division of the number by the other."""
         return self.number % other
 
     def __int__(self) -> int:

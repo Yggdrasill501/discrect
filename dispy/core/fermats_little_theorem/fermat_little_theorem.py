@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """File to count Fermat's little theorem"""
 import dispy.core.types
 
