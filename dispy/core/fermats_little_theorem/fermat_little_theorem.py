@@ -1,6 +1,10 @@
 # -*- coding: utf-8 -*-
 """File to count Fermat's little theorem"""
 import dispy.core.types
+import logging
+
+MODULE_LOGGER = logging.getLogger(__name__)
+logging.basicConfig(level=logging.INFO)
 
 
 class FermatLittleTheorem:
